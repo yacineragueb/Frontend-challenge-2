@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- ==================== tailwind ==================== -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- ==================== Fonts ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Stats preview card component</title>
+  </head>
+  <body class="bg-[hsl(233,47%,7%)] flex items-center justify-center h-[110vh] md:h-screen">
+    <section class="w-[90%] rounded-lg bg-[hsl(244,38%,16%)] flex flex-col sm:w-[60%] lg:flex-row-reverse">
+      <div class="w-full md:flex-1 relative">
+        <img
+          src="images/image-header-mobile.jpg"
+          alt="image-header-mobile"
+          class="object-cover lg:hidden w-full rounded-t-lg max-h-[20rem]"
+        />
+        <img
+          src="images/image-header-desktop.jpg"
+          alt="image-header-desktop"
+          class="hidden lg:block object-cover w-full h-full rounded-r-lg"
+        />
+        <div class="absolute inset-0 bg-[hsl(277,64%,61%)] mix-blend-multiply"></div>
+      </div>
+      <div
+        class="flex flex-col items-center justify-between py-3 md:py-0 lg:items-start md:flex-1"
+      >
+        <div class="flex flex-col items-center p-6 pb-1 md:p-14 md:pb-0">
+          <h1
+            class="text-center text-[1.6rem]/7 font-[700] font-[Inter] text-white mb-3 lg:text-left md:text-[2rem]/9 md:mb-6"
+          >
+            Get <span class="text-[hsl(277,64%,61%)]">insights</span> that help
+            your business grow.
+          </h1>
+          <p
+            class="text-[14px] text-[hsla(0,0%,100%,0.75)] text-center font-[Inter] lg:text-left"
+          >
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5 text-center md:flex-row md:gap-10 lg:text-left p-6 md:p-13">
+          <div>
+            <p class="text-2xl font-[700] font-[Inter] text-white">10k+</p>
+            <span
+              class="uppercase text-[hsla(0,0%,100%,0.6)] font-[Lexend_Deca] text-[13px] tracking-wide"
+              >Companies</span
+            >
+          </div>
+          <div>
+            <p class="text-2xl font-[700] font-[Inter] text-white">314</p>
+            <span
+              class="uppercase text-[hsla(0,0%,100%,0.6)] font-[Lexend_Deca] text-[13px] tracking-wide"
+              >Templates</span
+            >
+          </div>
+          <div>
+            <p class="text-2xl font-[700] font-[Inter] text-white">12M+</p>
+            <span
+              class="uppercase text-[hsla(0,0%,100%,0.6)] font-[Lexend_Deca] text-[13px] tracking-wide"
+              >Queries</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
