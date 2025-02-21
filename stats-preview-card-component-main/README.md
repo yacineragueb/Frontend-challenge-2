@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge-2/tree/master/stats-preview-card-component-main)
+- Live Site URL: [Click Here](https://stats-card-challenge-2.vercel.app/)
 
 ## My process
 
