@@ -2,9 +2,10 @@ var iconShare =  document.querySelector('.icon-share');
 var shareStateDiv =  document.querySelector('.share-state');
 var shareStateDesktopDiv = document.querySelector('.share-state-desk');
 
-iconShare.addEventListener('click', () => {
+iconShare.addEventListener('click', (e) => {
+    e.stopPropagation();
     const width = window.innerWidth;
-    if(width < 768 ) {
+    if(width < 1024 ) {
         shareStateDiv.classList.toggle('active');
     } else {
         shareStateDesktopDiv.classList.toggle('active')
@@ -19,3 +20,13 @@ window.addEventListener('resize', ()=> {
         shareStateDesktopDiv.classList.remove('active');
     }
 })
+
+document.addEventListener('click', (e) => {
+    if (!shareStateDiv.contains(e.target)) {
+        shareStateDiv.classList.remove('active');
+    }
+
+    if (!shareStateDesktopDiv.contains(e.target)) {
+        shareStateDesktopDiv.classList.remove('active');
+    }
+});
