@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ============================ Font ============================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ============================ Tailwind ============================ -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Single Price Grid Component</title>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-cyan: hsl(179, 62%, 43%);
+        --color-bright-yellow: hsl(71, 73%, 54%);
+        --color-light-gray: hsl(204, 43%, 93%);
+        --color-grayish-blue: hsl(218, 22%, 67%);
+      }
+    </style>
+  </head>
+  <body class="flex items-center justify-center bg-light-gray font-[Karla] md:h-screen">
+    <section class="w-[90%] bg-white rounded-lg overflow-hidden my-10 md:my-0 md:w-180">
+      <div class="py-8 px-6 md:p-10">
+        <h1 class="text-2xl font-bold text-cyan">Join our community</h1>
+        <h2 class="text-[1.1rem] font-bold text-bright-yellow my-5">30-day, hassle-free money back guarantee</h2>
+        <p class="text-grayish-blue">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
+      <div class="flex flex-col md:flex-row">
+        <div class=" p-6 bg-cyan flex flex-col md:flex-1 md:p-10">
+          <h2 class="font-bold mb-4 text-xl text-white">Monthly Subscription</h2>
+          <div class="flex gap-3 items-center">
+            <p class="text-4xl font-bold text-white">&dollar;29</p>
+            <span class="text-light-gray/75">per month</span>
+          </div>
+          <p class="mt-2 text-white/75">Full access for less than &dollar;1 a day</p>
+          <a href="#" class="text-center py-3 rounded-md text-white bg-bright-yellow font-bold mt-7 shadow-[0_10px_20px_rgba(0,0,0,0.1)] transition-colors duration-200 hover:bg-[hsl(71,100.00%,44.30%)]">Sign Up</a>
+        </div>
+        <div class="py-8 px-6 bg-cyan/80 md:flex-1 md:py-10 md:p-10">
+          <h2 class="font-bold mb-4 text-xl text-white">Why Us</h2>
+          <p class="text-light-gray w-[80%]">
+          Tutorials by industry experts
+          Peer &amp; expert code review
+          Coding exercises
+          Access to our GitHub repos
+          Community forum
+          Flashcard decks
+          New videos every week
+        </p
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
