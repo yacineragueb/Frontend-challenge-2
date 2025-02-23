@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge-2/tree/master/social-proof-section-master)
+- Live Site URL: [Click Here](https://social-proof-challenge-2.vercel.app/)
 
 ## My process
 
