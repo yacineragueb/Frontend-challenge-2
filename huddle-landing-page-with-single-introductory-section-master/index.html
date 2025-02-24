@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- ==================== Tailwind ==================== -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+    <!-- ==================== Fonts ==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ==================== Icons ==================== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Huddle landing page with single introductory section</title>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-violet: hsl(257, 40%, 49%);
+        --color-soft-magenta: hsl(300, 69%, 71%);
+      }
+    </style>
+  </head>
+  <body class="bg-violet relative h-screen">
+    <img
+      src="/images/bg-mobile.svg"
+      alt="#"
+      class="absolute inset-0 w-full -z-10 md:hidden"
+    />
+    <img
+      src="/images/bg-desktop.svg"
+      alt="#"
+      class="absolute inset-0 hidden object-cover h-full -z-10 md:block"
+    />
+    <section class="h-full flex flex-col w-full p-8 items-center lg:px-16">
+      <img src="/images/logo.svg" alt="logo" class="w-35 lg:w-40 mb-14 self-start" />
+      <div class="flex flex-col items-center lg:flex-row lg:justify-center lg:h-full lg:gap-10 lg:items-start">
+        <div class="lg:flex-1">
+          <img
+          src="/images/illustration-mockups.svg"
+          alt="mockups"
+          class="mb-14 max-w-85 lg:max-w-full w-full lg:mb-0"
+        />
+        </div>
+        <div class="flex flex-col items-center text-center lg:flex-1 lg:items-start lg:py-10 lg:w-fit">
+          <h1
+            class="text-2xl lg:text-4xl/14 w-[90%] lg:w-4/6 font-semibold text-white font-[Poppins] mb-3 lg:text-left"
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+          <p class="text-white font-[Open_Sans] mb-6 text-[15px] w-[95%] lg:w-[60%] lg:text-left">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a
+            href="#"
+            class="block w-50 lg:w-40 font-[Poppins] shadow-[0_4px_5px_rgba(0,0,0,0.2)] bg-white text-violet py-2 lg:py-3 rounded-full text-sm lg:self-start transiton-colors duration-200 hover:bg-soft-magenta hover:text-white"
+            >Register</a
+          >
+        </div>
+      </div>
+      <div class="flex gap-3 text-white mt-8 lg:self-end *:transition-colors *:duration-200 *:hover:border-soft-magenta *:hover:text-soft-magenta">
+        <a href="#" class="border-2 border-white rounded-full w-8 h-8 grid place-content-center"><i class="ri-facebook-fill"></i></a>
+        <a href="#" class="border-2 border-white rounded-full w-8 h-8 grid place-content-center"><i class="ri-twitter-fill"></i></a>
+        <a href="#" class="border-2 border-white rounded-full w-8 h-8 grid place-content-center"><i class="ri-instagram-line"></i></a>
+      </div>
+    </section>
+  </body>
+</html>
