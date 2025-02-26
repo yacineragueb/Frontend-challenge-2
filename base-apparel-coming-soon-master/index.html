@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- ======================= Font ======================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <!-- ======================= Tailwind ======================= -->
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+  <title>Base Apparel coming soon page</title>
+
+  <style type="text/tailwindcss">
+    @theme {
+      --color-desaturated-red: hsl(0, 36%, 70%);
+      --color-soft-red: hsl(0, 93%, 68%);
+
+      --color-dark-grayish-red: hsl(0, 6%, 24%);
+    }
+  </style>
+
+</head>
+<body class="font-[Josefin_Sans] h-screen overflow-hidden">
+
+  <section class="flex w-full h-full flex-col lg:flex-row lg:items-center">
+    <div class="lg:h-full lg:bg-[url('/images/bg-pattern-desktop.svg')] lg:no-repeat lg:bg-cover lg:bg-center">
+      <div class="flex flex-col items-center lg:items-start lg:h-full lg:w-[75%] lg:ml-[10rem]">
+        <img src="images/logo.svg" alt="logo" class="w-25 my-6 mx-8 lg:w-35 lg:mt-12 lg:mb-[7.5rem] self-start">
+  
+        <img src="images/hero-mobile.jpg" alt="hero-mobile" class="mb-6 h-auto w-auto lg:hidden">
+  
+        <form class="flex flex-col items-center w-full p-8 lg:items-start lg:justify-self-center">
+          <h1 class="text-4xl text-center uppercase font-semibold text-dark-grayish-red tracking-[8px] mb-4 lg:text-left lg:text-6xl lg:tracking-[16px] lg:w-100"><span class="font-[300] text-desaturated-red">We're</span><br>coming soon</h1>
+          <p class="text-center text-desaturated-red mb-8 text-[.9rem] lg:text-left lg:w-[65%] lg:leading-6 lg:text-[1rem]">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <label class="border w-full mb-2 sm:w-3/4 px-6 py-3 rounded-full border-desaturated-red relative group">
+              <input type="email" placeholder="Email Address" class="outline-none border-none w-[80%] lg:w-[60%] text-black placeholder:text-desaturated-red">
+              <button type="submit" class="absolute px-7 py-4 md:px-10 grid place-content-center rounded-full -top-[1px] -right-[3px] bg-linear-[135deg,hsl(0,80%,86%),hsl(0,74%,74%)] shadow-[0_10px_20px_hsla(0,36%,70%,.60)] cursor-pointer hover:bg-linear-[135deg,hsl(0,80%,86%),hsl(0,80%,86%)]">
+                <img src="images/icon-arrow.svg" alt="arrow">
+              </button>
+              <img src="images/icon-error.svg" alt="error icon" class="iconErr absolute hidden top-1/2 -translate-y-1/2 right-20 md:right-25">
+            </label>
+            <p class="pErr text-soft-red lg:ml-6 hidden"></p>
+        </form>
+      </div>
+    </div>
+    <div class="h-full w-185">
+      <img src="images/hero-desktop.jpg" alt="hero-desktop" class="hidden lg:block h-full object-cover">
+    </div>
+  </section>
+  
+  <script src="main.js"></script>
+</body>
+</html>
