@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://your-solution-url.com)
-- Live Site URL: [Click Here](https://your-live-site-url.com)
+- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge-2/tree/master/base-apparel-coming-soon-master)
+- Live Site URL: [Click Here](https://base-apparel-challenge-2.vercel.app/)
 
 ## My process
 
@@ -42,10 +42,10 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [Tailwind](https://reactjs.org/) - framework css
+- [Tailwind](https://tailwindcss.com/) - framework css
 
 ## Author
 
-- Website - [Yacine Ragueb](https://www.your-site.com)
+- Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
 - Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@yacineRagueb](https://www.twitter.com/yourusername)
+- LinkedIn - [@yacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
