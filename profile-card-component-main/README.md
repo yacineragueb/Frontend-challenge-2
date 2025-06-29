@@ -24,7 +24,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/Yaciine19/Frontend-challenge-2/tree/master/profile-card-component-main)
+- Solution URL: [Click Here](https://github.com/yacineragueb/Frontend-challenge-2/tree/master/profile-card-component-main)
 - Live Site URL: [Click Here](https://profile-card-challenge-2.vercel.app/)
 
 ## My process
@@ -41,5 +41,5 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Author
 
 - Website - [Yacine Ragueb](https://yacineragueb.vercel.app/)
-- Frontend Mentor - [@Yaciine19](https://www.frontendmentor.io/profile/Yaciine19)
-- LinkedIn - [@YacineRagueb](https://www.linkedin.com/in/yacine-ragueb-8033a9302/)
+- Frontend Mentor - [@yacineragueb](https://www.frontendmentor.io/profile/yacineragueb)
+- LinkedIn - [@YacineRagueb](https://www.linkedin.com/in/yacineragueb/)
